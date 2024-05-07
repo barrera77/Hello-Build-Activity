@@ -1,11 +1,9 @@
 main {
-  border-style: dotted;
   padding: 0;
 }
 
 #container {
-  border: solid 1px;
-  width: 1024px;
+  width: 960px;
   padding: 32px;
   margin: auto;
   background-color: #edf1f7;
@@ -26,6 +24,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+  padding-bottom: 39px;
 }
 
 #banner span,
@@ -64,7 +63,6 @@ p {
 
 #content {
   justify-content: space-around;
-  border: solid 1px;
   display: flex;
   gap: 32px;
 }
@@ -100,9 +98,8 @@ p {
   background-color: #63b3ed;
 }
 
-img {
-  object-fit: contain;
-  overflow: hidden;
+.image svg {
+  margin-top: 3rem;
 }
 
 footer {
